@@ -1,0 +1,9 @@
+/switch:
+  head:
+    summary: Switch the UI back to 4X
+    tags:
+    - troll
+    operationId: trollUI
+    responses:
+      202:
+        description: Vote recorded

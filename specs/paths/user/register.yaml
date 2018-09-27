@@ -1,0 +1,10 @@
+/user/register:
+  post:
+    description: LOLOolololololLOLOLOLO
+    responses:
+      200:
+        description: Congratz noob.
+        content:
+          application/json:
+            schema:
+              type: array

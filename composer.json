@@ -1,0 +1,6 @@
+{
+    "name": "youdot/openapi",
+    "require": {
+        "th3mouk/openapi-generator": "^0.1.0"
+    }
+}
