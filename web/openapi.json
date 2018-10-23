@@ -1,0 +1,29 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "0.1.0",
+        "title": "Youdot",
+        "description": "This API & documentation is experimental, improvement will be made in the future.",
+        "contact": {
+            "url": "https://github.com/Youdot/OpenAPI"
+        }
+    },
+    "servers": [
+        {
+            "url": "//truffade.youdot.io",
+            "description": "Experimental \"emmental\" server"
+        }
+    ],
+    "components": {
+        "securitySchemes": {
+            "JWT": {
+                "type": "http",
+                "scheme": "Bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    },
+    "security": null,
+    "definitions": {},
+    "paths": {}
+}

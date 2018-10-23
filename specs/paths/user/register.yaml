@@ -1,10 +1,12 @@
-/user/register:
-  post:
-    description: LOLOolololololLOLOLOLO
-    responses:
-      200:
-        description: Congratz noob.
-        content:
-          application/json:
-            schema:
-              type: array
+#/user/register:
+#  post:
+#    description: LOLOolololololLOLOLOLO
+#    tags:
+#    - user
+#    responses:
+#      200:
+#        description: Congratz noob.
+#        content:
+#          application/json:
+#            schema:
+#              type: array

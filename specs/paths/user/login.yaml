@@ -1,26 +1,26 @@
-/user/login:
-  post:
-    description: LOLOolololololLOLOLOLO
-    summary: Lol
-    tags:
-    - user
-    operationId: userLogin
-    requestBody:
-      content:
-        'application/form-data':
-          schema:
-            properties:
-              email:
-                description: yuno
-                type: string
-              password:
-                description: such security very secure
-                type: string
-            required:
-            - email
-              password
-    responses:
-      200:
-        description: Congratz noob.
-        content:
-          application/json: {}
+#/user/login:
+#  post:
+#    description: LOLOolololololLOLOLOLO
+#    summary: Lol
+#    tags:
+#    - user
+#    operationId: userLogin
+#    requestBody:
+#      content:
+#        'application/form-data':
+#          schema:
+#            properties:
+#              email:
+#                description: yuno
+#                type: string
+#              password:
+#                description: such security very secure
+#                type: string
+#            required:
+#            - email
+#              password
+#    responses:
+#      200:
+#        description: Congratz noob.
+#        content:
+#          application/json: {}
