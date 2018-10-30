@@ -1,26 +1,33 @@
-#/user/login:
-#  post:
-#    description: LOLOolololololLOLOLOLO
-#    summary: Lol
-#    tags:
-#    - user
-#    operationId: userLogin
-#    requestBody:
-#      content:
-#        'application/form-data':
-#          schema:
-#            properties:
-#              email:
-#                description: yuno
-#                type: string
-#              password:
-#                description: such security very secure
-#                type: string
-#            required:
-#            - email
-#              password
-#    responses:
-#      200:
-#        description: Congratz noob.
-#        content:
-#          application/json: {}
+/login:
+  post:
+    summary: Return the authentication token
+    tags:
+    - Login
+    operationId: login
+    requestBody:
+      content:
+        'application/json':
+          schema:
+            properties:
+              email:
+                description: Account's email
+                type: string
+              password:
+                description: Your very secure password
+                type: string
+            required:
+            - email
+              password
+    responses:
+      200:
+        description: The token to use into each request using the authentification header
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                token:
+                  type: string
+                  description: Authentification token
+      401:
+        $ref: '#/components/responses/Unauthorized'
