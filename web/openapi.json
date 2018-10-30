@@ -21,6 +21,37 @@
                 "scheme": "Bearer",
                 "bearerFormat": "JWT"
             }
+        },
+        "responses": {
+            "Unauthorized": {
+                "description": "The user can't be authenticated",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "schemas": {
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "string",
+                        "description": "Youdot specific error code"
+                    },
+                    "message": {
+                        "type": "string",
+                        "description": "Error in english human language 73696d706c65206d6f7274656c"
+                    }
+                },
+                "required": [
+                    "code",
+                    "message"
+                ]
+            }
         }
     },
     "security": null,
