@@ -3,7 +3,7 @@
     "info": {
         "version": "0.1.0",
         "title": "Youdot",
-        "description": "This API & documentation is experimental, improvement will be made in the future.",
+        "description": "This API & documentation is experimental, improvements will be made in the future.",
         "contact": {
             "url": "https://github.com/Youdot/OpenAPI"
         }
@@ -11,7 +11,7 @@
     "servers": [
         {
             "url": "//truffade.youdot.io",
-            "description": "Experimental \"emmental\" server"
+            "description": "Experi'emmental server"
         }
     ],
     "components": {
